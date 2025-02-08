@@ -274,7 +274,7 @@ const handleDecrement = (productId) => {
       addressInfo,
       email: userEmail,
       total: cartTotal,
-      paymentMethod: "cash-on-delivery",
+      paymentMethod: "cash-on-delivery",  
       status: "confirmed",
       time: new Date().toISOString(),
       date: new Date().toLocaleDateString("en-US", {
